@@ -16,3 +16,64 @@ http://www.lua.org/manual/5.1/
 
 http://luatut.com/introduction.html
 with web based shell for running without installing locally
+
+
+
+
+lua is a case sensitive language
+
+reserved keywords
+and       break     do        else      elseif
+end       false     for       function  if
+in        local     nil       not       or
+repeat    return    then      true      until
+while
+
+
+
+
+
+lua -v
+Lua 5.1.4  Copyright (C) 1994-2008 Lua.org, PUC-Rio
+
+
+running lua scripts
+
+lua console
+lua
+>
+
+lua
+> print("hello world")
+hello world
+>= "whoo hoo"
+whoo hoo
+
+> = 2*3
+# the second method is a shorthand for "return "
+
+
+
+running lua scripts
+lua [options] [script [args]]
+
+
+lua script.lua
+
+
+
+
+
+how to exit lua console
+there is no inbuilt command to exit shell
+ctrl+d is recommended method
+alternatively os.exit() in the shell
+
+
+
+
+Shebang line
+#!/usr/local/bin/lua
+or
+#!/usr/bin/env lua
+

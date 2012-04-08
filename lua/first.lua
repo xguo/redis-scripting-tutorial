@@ -7,3 +7,13 @@ for i=1,10 do
 
 end
 
+
+
+
+-- single line comment
+
+--[[
+this is a 
+multi line 
+comment
+--]]
