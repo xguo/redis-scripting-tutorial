@@ -6,3 +6,5 @@ this I later discovered as network defaults on ubuntu
 you can considerably increase  the performance by making these settings
 
 you need to be "root" user to make these changes
+
+
