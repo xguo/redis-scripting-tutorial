@@ -1,0 +1,26 @@
+
+
+
+
+# pre-requisites
+git
+gcc
+
+
+
+clone the repository
+git clone https://github.com/antirez/redis.git
+cd redis
+git checkout -b 2.6 origin/2.6
+make
+
+
+# starting the server
+./src/redis-server
+
+
+# benchmarking (in a separate console)
+./src/redis-benchmark
+
+# starting the client( in a separate console)
+./src/redis-cli

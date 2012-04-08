@@ -1,0 +1,8 @@
+if you are doing load testing your redis setup, there is a very good chance you would hit sudden slowdown of requests when you cross about 30000 requests
+
+
+this I later discovered as network defaults on ubuntu
+
+you can considerably increase  the performance by making these settings
+
+you need to be "root" user to make these changes
