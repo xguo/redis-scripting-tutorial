@@ -1,0 +1,18 @@
+
+
+what is Lua?
+
+Lua is a programming language
+
+http://www.lua.org/
+http://en.wikipedia.org/wiki/Lua_(programming_language)
+
+Programming in Lua
+http://www.lua.org/pil/#online
+
+Lua 5.1 Reference Manual
+http://www.lua.org/manual/5.1/
+
+
+http://luatut.com/introduction.html
+with web based shell for running without installing locally
