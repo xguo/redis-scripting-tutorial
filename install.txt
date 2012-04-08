@@ -15,6 +15,13 @@ git checkout -b 2.6 origin/2.6
 make
 
 
+# possible errors and solutions
+pcre and openssl dependencies
+
+sudo apt-get install libpcre3   libcurl4-openssl-dev
+
+
+
 # starting the server
 ./src/redis-server
 
