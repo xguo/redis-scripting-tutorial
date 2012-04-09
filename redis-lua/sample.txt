@@ -1,0 +1,30 @@
+./redis-cli
+
+
+run the eval line in redis console
+eval "return 'hello'" 1 1
+
+eval "redis.call('set','rand',math.random()); return redis.call('get','rand')" 1 1
+
+
+
+eval "return redis.call('set','foo','bar')" 0
+OK
+
+
+eval "return redis.call('set','foo','bar')" 0
+OK
+
+
+
+eval "return {KEYS[1],KEYS[2],ARGV[1],ARGV[2]}" 2 key1 key2 first second
+
+
+1) "key1"
+2) "key2"
+3) "first"
+4) "second"
+
+
+
+eval "for i=1,1000000 do redis.call(\"incr\",\"y\") end; return redis.call('get','y')" 0
